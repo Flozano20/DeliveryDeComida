@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Delivery.Api.Controllers.PedidosController",
+    "Method": "CrearPedido",
+    "RelativePath": "api/pedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Delivery.Shared.DTOs.CrearPedidoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Delivery.Api.Controllers.PedidosController",
+    "Method": "CrearPedidosMasivos",
+    "RelativePath": "api/pedidos/masivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Delivery.Shared.DTOs.PedidoMasivoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
