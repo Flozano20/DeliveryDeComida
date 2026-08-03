@@ -50,19 +50,3 @@ Abrir:
 Delivery.Worker
 
 
-### 5. Probar
-
-Enviar un POST a:
-
-/api/pedidos
-
-Ejemplo:
-
-{
- "cliente":"Francisco",
- "restaurante":"Pizza Express",
- "zona":"Centro",
- "cantidadItems":2,
- "total":250.50,
- "metodoPago":"Tarjeta"
-}
